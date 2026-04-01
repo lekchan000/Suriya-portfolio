@@ -12,7 +12,7 @@ body {
   margin-top: -1cm;
   padding-top: 2cm;
   padding-bottom: 2cm;
-  height: 5mm;
+  height: 8mm;
 }
 
 .topmenu {
@@ -25,7 +25,8 @@ body {
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
+  font-weight:bold;
+  text-decoration:underline;
 }
 
 .topdiv {
@@ -34,9 +35,10 @@ body {
 }
 
 .profile_name {
+  color: white;
   float: left;
   padding-left: 2cm;
-  /* Add the styles here */
+  font-size: 30px;
 }
 
 .profile_name .contact_info {
